@@ -1,0 +1,66 @@
+body
+{
+	background-color: #A9A9A9;
+	background-image: url(https://www.tapeciarnia.pl/tapety/normalne/tapeta-stare-ksiazki-ulozone-jedna-na-drugiej.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.genre
+{
+	font-family: arial;
+	font-size:18px;
+	font-style: italic;
+	width:30%;
+	min-width: 30%;
+	margin-left:40%;
+	text-align: center;
+	background-color: white;
+	border-radius: 9px 9px 0px 0px;
+	box-shadow: 5px 5px 12px #000;
+}
+.author
+{
+	width:30%;
+	margin-top: 1px;
+	margin-left:40%;
+	text-indent: 1%;
+	background-color: white;
+	box-shadow: 5px 5px 12px #000;
+}
+.price
+{
+	width:30%;
+	margin-left:40%;
+	text-indent: 1%;
+	background-color: white;
+	box-shadow: 5px 5px 12px #000;
+}
+.presence
+{
+	width:30%;
+	margin-left:40%;
+	text-indent: 1%;
+	background-color: white;
+	box-shadow: 5px 5px 12px #000;
+	border-radius: 0px 0px 9px 9px;
+}
+div.genre:hover{
+    background-color: #FFE4C4;
+    font-size:19px;
+}
+.butt
+{
+	margin-left:52%;
+	margin-top:1%;
+	background-color: #90EE90;
+	box-shadow: 5px 5px 12px #000;
+	border-radius: 9px;
+}
+.del
+{
+	margin-left:1%;
+	background-color: red;
+	box-shadow: 5px 5px 12px #000;
+	border-radius: 9px;
+}

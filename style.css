@@ -1,0 +1,303 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+html {
+  background: white;
+  font-size: 1rem;
+}
+
+body {
+  display: block;
+  background: white;
+  margin: 0 auto;
+  padding-top: 80px;
+  line-height: 1.45;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+h3 {
+    font-size: 3vw;
+}
+
+h1 {
+  color: #db5051;
+  font-size: 3vw;
+  font-weight: 700;
+    position: static;
+}
+
+h2 {
+  font-size: 1.9rem;
+  color: #75649b;
+  font-family: "Lora", serif;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+  color: #666666;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.genre {
+    width: 100%;
+    height: 10vh;
+}
+
+.blog {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align:center;
+}
+
+.science-fiction {
+    width: 75%;
+    margin-left: 13%;
+    height: 8vh;
+    color:white;
+    background-color: #87CEEB;
+}
+
+.science-fiction:hover {
+    background-color: #87CEFA;
+    width: 79%;
+    height: 9vh;
+    margin-left: 11%;
+}
+
+.science {
+    width: 81%;
+    margin-left: 10%;
+    height: 8vh;
+    color:white;
+    background-color: #00BFFF;
+}
+
+.science:hover {
+    background-color: #87CEFA;
+    width: 83%;
+    height: 9vh;
+    margin-left: 9%;
+}
+
+.fiction {
+    width: 89%;
+    margin-left: 6%;
+    height: 8vh;
+    color:white;
+    background-color: #1E90FF;
+}
+
+.fiction:hover {
+    background-color: #87CEFA;
+    width: 91%;
+    height: 9vh;
+    margin-left: 5%;
+}
+
+.horror {
+    width: 95%;
+    margin-left: 3%;
+    height: 8vh;
+    color:white;
+    background-color: #4169E1;
+}
+
+.horror:hover {
+    background-color: #87CEFA;
+    width: 97%;
+    height: 9vh;
+    margin-left: 2%;
+}
+
+.fantasy {
+    width: 99%;
+    margin-left: 1%;
+    height: 8vh;
+    color:white;
+    background-color: hsla(230, 80%, 30%, 0.9);
+}
+
+.fantasy:hover {
+    background-color: #87CEFA;
+    width: 100%;
+    height: 9vh;
+    margin-left: 0%;
+}
+
+.top-nav {
+  height: 80px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-bottom: solid 1px #edebe6;
+  z-index: 99;
+  background-color: hsla(100, 40%, 60%, 0.9);
+  padding: 0 2rem;
+}
+.top-nav .brand, .top-nav ul li a {
+  height: 80px;
+  line-height: 80px;
+}
+.top-nav ul {
+  display: block;
+  text-align: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.top-nav ul li {
+  display: inline-block;
+}
+.top-nav ul li a{
+  display: inline-block;
+  padding: 0 2rem;
+  color: black;
+}
+.top-nav ul li a:hover {
+  color: #db5051;
+}
+
+.hero {
+  height: 50vh;
+  padding: 20vh;
+  text-align: left;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  position:static;
+  background: url("https://www.wallpaperflare.com/static/320/135/724/books-college-cover-data-wallpaper.jpg") no-repeat;
+  background-size: 100% auto;
+}
+.error {
+  height: 50vh;
+  padding: 20vh;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: hsla(231, 70%, 40%, 0.8);
+  background-size: 100% auto;
+}
+/* = Borders */
+.border {
+  border: solid 1px #edebe6;
+}
+
+.border-left {
+  border-left: solid 1px #edebe6;
+}
+
+.border-right {
+  border-right: solid 1px #edebe6;
+}
+
+.border-top {
+  border-top: solid 1px #edebe6;
+}
+
+.border-bottom {
+  border-bottom: solid 1px #edebe6;
+}
+
+/* = Grid ends here */
+/* = UI Components */
+/*Forms */
+textarea {
+/*  font-family: "Roboto", Helvetica, sans-serif;*/
+/*  font-size: 0.9rem;*/
+  display: inline-block;
+  width: 100%;
+  border: solid 1px #cccccc;
+/*  outline: none;*/
+/*  box-sizing: border-box;*/
+  padding: 0.6rem;
+  box-shadow: none;
+  border-radius: 4px;
+}
+input:focus, textarea:focus {
+  border: solid 1px #aaa;
+}
+
+.input-wrap, fieldset {
+  margin-bottom: 1rem;
+}
+
+fieldset {
+  border: solid 1px #edebe6;
+  padding: 0.6rem;
+}
+fieldset legend {
+  font-size: 0.8rem;
+  color: #999999;
+}
+select:focus {
+  border: solid 1px #aaa;
+}
+
+label {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  main  {
+    border: solid 1px #edebe6;
+  }
+
+  .top-nav {
+    position: fixed;
+  }
+  .top-nav nav.col {
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    display: block;
+    right: 2em;
+    top: 37px;
+    background: black;
+  }
+  .top-nav nav.col ul {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 0;
+    overflow: hidden;
+    top: 80px;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
+.sidebar {
+  font-size: 85%;
+    border-bottom: solid 1px #edebe6;
+  padding: 1em;
+    border: none;
+}
+
+.grid-preview {
+  padding: 3em 0;
+  background: #fafafa;
+  border-bottom: solid 1px #edebe6;
+}
+.grid-preview  {
+  border-color: #cccccc;
+  font-size: 80%;
+  border: solid 1px #edebe6;
+  background: #fff;
+}
